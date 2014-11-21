@@ -1,4 +1,4 @@
-# w7d3: [NewsReader][description]
+#RSS Feeds Reader
 
 [Project Link](http://linh-feedsreader.herokuapp.com)
 - Existant user information: 
