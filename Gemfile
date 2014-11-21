@@ -26,3 +26,8 @@ gem 'bcrypt-ruby', '~> 3.0.0', require: "bcrypt"
 group :development, :test do
   gem 'rspec-rails'
 end
+
+group :production, :staging do
+  gem 'pg'
+  gem 'rails_12factor'
+end
