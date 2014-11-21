@@ -1,6 +1,6 @@
 # w7d3: [NewsReader][description]
 
-[Project Link](http://linh-newsfeed.herokuapp.com/)
+[Project Link](http://linh-feedsreader.herokuapp.com)
 - Existant user information: 
 + username: user
 + password: password
@@ -10,7 +10,7 @@ Features:
 - User's authentication
 - User has many feeds, each feeds has many entries
 * Backbone front end:
-- Add/Remove Subviews for each feed [code](www.google.com) 
+- Add/Remove Subviews for each feed ([Check out the code](https://github.com/linhbui/feeds_reader/blob/master/app/assets/javascripts/news_reader.js))
 - Retrieve entries
 * Twitter Bootstrap
 
