@@ -1,0 +1,20 @@
+<form style="margin:0 auto; width: 40%;">
+    <label for="feed_title">Title</label>
+    <div class="form-group">
+    <input type="text"
+           name="feed[title]"
+           value="<%= feed.escape('title') %>"
+           id="feed_title"
+           class="form-control">
+    </div>
+    <div class="form-group">
+    <label for="feed_url">Url</label>
+    <input type="text"
+           name="feed[url]"
+           value="<%= feed.escape('url') %>"
+           id="feed_url"
+           class="form-control">
+    </div> 
+    <br>   
+    <input type="submit" value="Create a new feed!" class="btn btn-primary">
+</form>

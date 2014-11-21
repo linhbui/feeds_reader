@@ -1,0 +1,18 @@
+<h3> <%= feed.escape("title") %></h3>
+<button type="button" class="refresh btn btn-success">Refresh Feed</button>
+<br><br>
+<ul>
+    <% entries.each(function (entry) { %>
+        <li style="font-weight:bold;">
+            <span><%= entry.date() %></span>
+        </br>
+            <a href="<%= entry.link() %>" target="_blank"><%= entry.escape('title') %></a>
+            <p style="font-weight:normal">
+                <%= entry.description() %>
+            </p>
+        </li>
+        <br>
+    <% })%>
+</ul>
+        
+        
