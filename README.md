@@ -2,8 +2,8 @@
 
 [Project Link](http://linh-feedsreader.herokuapp.com)
 - Existant user information: 
-+ username: user
-+ password: password
+   + username: user
+   + password: password
 
 Features:
 - Rails back-end:
@@ -18,5 +18,5 @@ To run project locally:
 - bundle install
 - bundle exec rake db:create db:migrate db:seed
 - Sign in information: 
-+ username: user
-+ password: password
+   + username: user
+   + password: password
